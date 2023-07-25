@@ -47,4 +47,4 @@ for subtext in subtexts:
 highest_upvote_index = articles_upvotes.index(max(articles_upvotes))
 
 print(
-    f"The highest upvotes articles:\n {articles_titles[highest_upvote_index]} \n{articles_links[highest_upvote_index]}")
+    f"The highest upvote points article:\n {articles_titles[highest_upvote_index]} \n{articles_links[highest_upvote_index]}")
